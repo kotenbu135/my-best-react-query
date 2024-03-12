@@ -16,7 +16,7 @@ export const PostListPage = () => {
         <div key={id}>
           <p>id: {id}</p>
           <p>title: {title}</p>
-          <p>body: {body}</p>
+          {/* <p>body: {body}</p> */}
         </div>
       ))}
     </div>
